@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_4"
+    tools:context=".Pinjam.BorrowedListDetailActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Detail"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="28sp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/pictInfo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/info"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Username"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <TextView
+            android:id="@+id/usernameBorrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Username"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/titleLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Title"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <TextView
+            android:id="@+id/titleBorrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Title"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+
+        <TextView
+            android:id="@+id/borrowdateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Borrow Date"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <TextView
+            android:id="@+id/borrowDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Borrow Date"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/returndateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Return Date"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <EditText
+            android:id="@+id/returnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Return Date"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#DA70D6"
+            android:fontFamily="@font/nunito_sans"
+            android:text="Return"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_marginTop="15dp"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Edit"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"
+            android:backgroundTint="#20B2AA"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_marginTop="15dp"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Delete"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"
+            android:backgroundTint="#CD5C5C"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

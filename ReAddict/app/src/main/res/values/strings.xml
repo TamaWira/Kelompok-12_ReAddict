@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ReAddict</string>
+
+    <!-- Login -->
+    <string name="login">Login to Your Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="delete">Delete</string>
+</resources>

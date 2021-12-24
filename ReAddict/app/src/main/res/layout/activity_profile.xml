@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_4"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Your Profile"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="28sp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/profilePictPage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/fullNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:paddingHorizontal="20dp"
+            android:text="Full Name"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fullNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Fullname"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/userNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Username"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <EditText
+            android:id="@+id/userNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Username"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/emailAddressLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Email"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <EditText
+            android:id="@+id/emailAddressProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Email"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/genderLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Gender"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <EditText
+            android:id="@+id/genderProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Gender"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/interestLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Interest"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <EditText
+            android:id="@+id/interestProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Interest"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/favBooksLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:text="Favorite Books"
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <TextView
+            android:id="@+id/favBooksProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/form_border"
+            android:text="Favorite Books"
+            android:minHeight="48dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_marginTop="15dp"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Edit"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"
+            android:backgroundTint="#20B2AA"/>
+
+
+        <Button
+            android:id="@+id/btnDeleteAcc"
+            android:layout_marginTop="15dp"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/delete"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"
+            android:backgroundTint="#CD5C5C"/>
+
+    </LinearLayout>
+
+</ScrollView>

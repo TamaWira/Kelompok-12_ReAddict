@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_4"
+    tools:context=".Pinjam.BorrowActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Fill out This Form!"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="27sp" />
+
+        <ImageView
+            android:id="@+id/borrowBooks"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/book"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/userNameBorrow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_sans"
+            android:layout_marginHorizontal="5dp"
+            android:hint="Enter your username"
+            android:textSize="16dp"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Title"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_sans"
+            android:layout_marginHorizontal="5dp"
+            android:hint="Enter the book title"
+            android:textSize="16dp"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrow Date"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/dateBorrow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_sans"
+            android:layout_marginHorizontal="5dp"
+            android:hint="Enter the date"
+            android:textSize="16dp"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return Date"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/dateReturn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_sans"
+            android:layout_marginHorizontal="5dp"
+            android:hint="Enter the date"
+            android:textSize="16dp"
+            android:inputType="date" />
+
+        <CheckBox
+            android:id="@+id/checkAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I promise to return this book on time."
+            android:fontFamily="@font/nunito_sans_semibold"/>
+
+        <Button
+            android:id="@+id/btnBorrow"
+            android:layout_marginTop="15dp"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Let's Go!"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunito_sans"/>
+
+    </LinearLayout>
+
+</ScrollView>
